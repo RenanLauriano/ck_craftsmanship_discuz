@@ -172,8 +172,8 @@ INSERT INTO pre_common_nav VALUES ('', '0', '導讀', '', 'forum.php?mod=guide',
 INSERT INTO pre_common_nav VALUES ('', '0', '排行榜', '', 'misc.php?mod=ranklist', 'ranklist', 0, 0, -1, 18, 0, 0, 0, 0, '{STATICURL}image/feed/ranklist_b.png', '', '', 3, '');
 
 
-INSERT INTO pre_common_nav VALUES ('', '0', '設為首頁', '', '#', 'sethomepage', 0, 0, 1, 1, 0, 0, 0, 0, '', '', '', 4, '');
-INSERT INTO pre_common_nav VALUES ('', '0', '收藏本站', '', '#', 'setfavorite', 0, 0, 1, 2, 0, 0, 0, 0, '', '', '', 4, '');
+INSERT INTO pre_common_nav VALUES ('', '0', 'Setup home page', '', '#', 'sethomepage', 0, 0, 1, 1, 0, 0, 0, 0, '', '', '', 4, '');
+INSERT INTO pre_common_nav VALUES ('', '0', 'Bookmark', '', '#', 'setfavorite', 0, 0, 1, 2, 0, 0, 0, 0, '', '', '', 4, '');
 
 -- [/update_nav]
 

@@ -1112,7 +1112,7 @@ function showDialog(msg, mode, t, func, cover, funccancel, leftmsg, confirmtxt, 
 		hidedom = '<style type="text/css">object{visibility:hidden;}</style>';
 	}
 	var s = hidedom + '<table cellpadding="0" cellspacing="0" class="fwin"><tr><td class="t_l"></td><td class="t_c"></td><td class="t_r"></td></tr><tr><td class="m_l">&nbsp;&nbsp;</td><td class="m_c"><h3 class="flb"><em>';
-	s += t ? t : '提示信息';
+	s += t ? t : 'Tips';
 	s += '</em><span><a href="javascript:;" id="fwin_dialog_close" class="flbc" onclick="hideMenu(\'' + menuid + '\', \'dialog\')" title="關閉">關閉</a></span></h3>';
 	if(mode == 'info') {
 		s += msg ? msg : '';
@@ -1886,7 +1886,7 @@ function addFavorite(url, title) {
 		try {
 			window.sidebar.addPanel(title, url, '');
         	} catch (e) {
-			showDialog("請按 Ctrl+D 鍵添加到收藏夾", 'notice');
+			showDialog("Please press Ctrl+D to add to favorites", 'notice');
 		}
 	}
 }
@@ -1896,7 +1896,7 @@ function setHomepage(sURL) {
 		document.body.style.behavior = 'url(#default#homepage)';
 		document.body.setHomePage(sURL);
 	} else {
-		showDialog("非 IE 瀏覽器請手動將本站設為首頁", 'notice');
+		showDialog("For non-IE browsers, please manually set this site as the home page", 'notice');
 		doane();
 	}
 }
