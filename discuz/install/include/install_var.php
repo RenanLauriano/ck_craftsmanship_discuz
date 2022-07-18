@@ -157,7 +157,7 @@ $serialize_sql_setting = array (
     1 =>
     array (
       'img' => '',
-      'title' => '威望',
+      'title' => 'Prestige',
       'unit' => '',
       'ratio' => 0,
       'available' => '1',
@@ -168,7 +168,7 @@ $serialize_sql_setting = array (
     2 =>
     array (
       'img' => '',
-      'title' => '金錢',
+      'title' => 'Money',
       'unit' => '',
       'ratio' => 0,
       'available' => '1',
@@ -179,7 +179,7 @@ $serialize_sql_setting = array (
     3 =>
     array (
       'img' => '',
-      'title' => '貢獻',
+      'title' => 'Contribute',
       'unit' => '',
       'ratio' => 0,
       'available' => '1',
@@ -253,8 +253,8 @@ $serialize_sql_setting = array (
   'recommendthread' =>
   array (
     'status' => '0',
-    'addtext' => '支持',
-    'subtracttext' => '反對',
+    'addtext' => 'Support',
+    'subtracttext' => 'Against',
     'defaultshow' => '1',
     'daycount' => '0',
     'ownthread' => '0',
@@ -262,22 +262,22 @@ $serialize_sql_setting = array (
   ),
   'seotitle' =>
   array (
-    'portal' => '門戶',
-    'forum' => '論壇',
-    'group' => '群組',
-    'home' => '家園',
-    'userapp' => '應用',
+    'portal' => 'Portal',
+    'forum' => 'Forum',
+    'group' => 'Group',
+    'home' => 'Home',
+    'userapp' => 'Application',
   ),
   'activityfield' =>
   array (
-    'realname' => '真實姓名',
+    'realname' => 'Real name',
     'mobile' => '手機',
     'qq' => 'QQ號',
   ),
   'article_tags' =>
   array (
-    1 => '原創',
-    2 => '熱點',
+    1 => 'Original',
+    2 => 'Hot spot',
     3 => '組圖',
     4 => '爆料',
     5 => '頭條',
@@ -289,7 +289,7 @@ $serialize_sql_setting = array (
   array (
     6 =>
     array (
-      'title' => '實名認證',
+      'title' => 'Verified',
       'available' => '0',
       'showicon' => '0',
       'viewrealname' => '0',
@@ -322,7 +322,7 @@ $serialize_sql_setting = array (
     ),
     7 =>
     array (
-      'title' => '視頻認證',
+      'title' => 'Video authentication',
       'available' => '0',
       'showicon' => '0',
       'viewvideophoto' => '0',

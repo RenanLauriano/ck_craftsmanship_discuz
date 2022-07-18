@@ -124,26 +124,26 @@ INSERT INTO pre_common_member_profile_setting VALUES('field8', 0, 1, 0, '自定�
 
 -- [update_nav]
 
-INSERT INTO pre_common_nav VALUES ('','0','門戶','Portal','portal.php','1','0','0','-1','1','0','0','0', 0, '', '', '', 0, '');
-INSERT INTO pre_common_nav VALUES ('','0','論壇','BBS','forum.php','2','0','0','1','2','0','0','0', 0, '', '', '', 0, '');
-INSERT INTO pre_common_nav VALUES ('','0','群組','Group','group.php','3','0','0','-1','7','0','0','0', 0, '', '', '', 0, '');
-INSERT INTO pre_common_nav VALUES ('','0','動態','Space','home.php','4','0','0','-1','8','0','0','0', 0, '', '', '', 0, '');
-INSERT INTO pre_common_nav VALUES ('','0','插件','Plugin','#','6','0','0','1','9','0','0','0', 0, '', '', '', 0, '');
-INSERT INTO pre_common_nav VALUES ('','0','幫助','Help','misc.php?mod=faq','7','0','0','0','10','0','0','0', 0, '', '', '', 0, '');
-INSERT INTO pre_common_nav VALUES ('','0','排行榜','Ranklist','misc.php?mod=ranklist','8','0','0','-1','16','0','0','0',  0, '', '', '', 0, '');
-INSERT INTO pre_common_nav VALUES ('','0','廣播','Follow','home.php?mod=follow','9','0','0','-1','5','0','0','0',  0, '', '', '', 0, '');
-INSERT INTO pre_common_nav VALUES ('','0','導讀','Guide','forum.php?mod=guide','10','0','0','-1','3','0','0','0',  0, '', '', '', 0, '');
-INSERT INTO pre_common_nav VALUES ('','0','淘帖','Collection','forum.php?mod=collection','11','0','0','-1','11','0','0','0',  0, '', '', '', 0, '');
-INSERT INTO pre_common_nav VALUES ('','0','日誌','Blog','home.php?mod=space&do=blog','12','0','0','-1','12','0','0','0',  0, '', '', '', 0, '');
-INSERT INTO pre_common_nav VALUES ('','0','相冊','Album','home.php?mod=space&do=album','13','0','0','-1','13','0','0','0',  0, '', '', '', 0, '');
-INSERT INTO pre_common_nav VALUES ('','0','分享','Share','home.php?mod=space&do=share','14','0','0','-1','14','0','0','0',  0, '', '', '', 0, '');
-INSERT INTO pre_common_nav VALUES ('','0','記錄','Doing','home.php?mod=space&do=doing','15','0','0','-1','15','0','0','0',  0, '', '', '', 0, '');
+INSERT INTO pre_common_nav VALUES ('','0','Portal','Portal','portal.php','1','0','0','-1','1','0' ,'0','0', 0, '', '', '', 0, '');
+INSERT INTO pre_common_nav VALUES ('','0','Forum','BBS','forum.php','2','0','0','1','2','0', '0','0', 0, '', '', '', 0, '');
+INSERT INTO pre_common_nav VALUES ('','0','Group','Group','group.php','3','0','0','-1','7','0 ','0','0', 0, '', '', '', 0, '');
+INSERT INTO pre_common_nav VALUES ('','0','Dynamic','Space','home.php','4','0','0','-1','8','0' ,'0','0', 0, '', '', '', 0, '');
+INSERT INTO pre_common_nav VALUES ('','0','Plugin','Plugin','#','6','0','0','1','9','0','0 ','0', 0, '', '', '', 0, '');
+INSERT INTO pre_common_nav VALUES ('','0','Help','Help','misc.php?mod=faq','7','0','0','0','10', '0','0','0', 0, '', '', '', 0, '');
+INSERT INTO pre_common_nav VALUES ('','0','Ranklist','Ranklist','misc.php?mod=ranklist','8','0','0','-1','16 ','0','0','0', 0, '', '', '', 0, '');
+INSERT INTO pre_common_nav VALUES ('','0','Broadcast','Follow','home.php?mod=follow','9','0','0','-1','5' ,'0','0','0', 0, '', '', '', 0, '');
+INSERT INTO pre_common_nav VALUES ('','0','Guide','Guide','forum.php?mod=guide','10','0','0','-1','3' ,'0','0','0', 0, '', '', '', 0, '');
+INSERT INTO pre_common_nav VALUES ('','0','Collection','Collection','forum.php?mod=collection','11','0','0','-1','11 ','0','0','0', 0, '', '', '', 0, '');
+INSERT INTO pre_common_nav VALUES ('','0','Log','Blog','home.php?mod=space&do=blog','12','0','0','-1',' 12','0','0','0', 0, '', '', '', 0, '');
+INSERT INTO pre_common_nav VALUES ('','0','Album','Album','home.php?mod=space&do=album','13','0','0','-1',' 13','0','0','0', 0, '', '', '', 0, '');
+INSERT INTO pre_common_nav VALUES ('','0','Share','Share','home.php?mod=space&do=share','14','0','0','-1',' 14','0','0','0', 0, '', '', '', 0, '');
+INSERT INTO pre_common_nav VALUES ('','0','record','Doing','home.php?mod=space&do=doing','15','0','0','-1',' 15','0','0','0', 0, '', '', '', 0, '');
 
-INSERT INTO pre_common_nav VALUES ('', '0', '站點統計', '', 'misc.php?mod=stat', 'stat', 0, 0, 1, 1, 0, 0, 0, 0, '', '', '', 1, '');
-INSERT INTO pre_common_nav VALUES ('', '0', '舉報', '', '#', 'report', 0, 0, 1, 2, 0, 0, 0, 0, '', '', '', 1, '');
+INSERT INTO pre_common_nav VALUES ('', '0', 'Site statistics', '', 'misc.php?mod=stat', 'stat', 0, 0, 1, 1, 0, 0, 0, 0, '', '', '', 1, '');
+INSERT INTO pre_common_nav VALUES ('', '0', 'Report', '', '#', 'report', 0, 0, 1, 2, 0, 0, 0, 0, '', '', '', 1, '');
 INSERT INTO pre_common_nav VALUES ('', '0', 'Archiver', '', 'archiver/', 'archiver', 0, 0, 1, 3, 0, 0, 0, 0, '', '', '', 1, '');
-INSERT INTO pre_common_nav VALUES ('', '0', '手機版', '', 'forum.php?mobile=yes', 'mobile', 0, 0, 1, 3, 0, 0, 0, 0, '', '', '', 1, '');
-INSERT INTO pre_common_nav VALUES ('', '0', '小黑屋', '', 'forum.php?mod=misc&action=showdarkroom', 'darkroom', 0, 0, 1, 3, 0, 0, 0, 0, '', '', '', 1, '');
+INSERT INTO pre_common_nav VALUES ('', '0', 'Mobile version', '', 'forum.php?mobile=yes', 'mobile', 0, 0, 1, 3, 0, 0, 0, 0, '', '', '', 1, '');
+INSERT INTO pre_common_nav VALUES ('', '0', 'Dark theme', '', 'forum.php?mod=misc&action=showdarkroom', 'darkroom', 0, 0, 1, 3, 0, 0, 0, 0, '', '', '', 1, '');
 
 INSERT INTO pre_common_nav VALUES ('', '0', '日誌', '', 'home.php?mod=space&do=blog', 'blog', 0, 0, -1, 2, 0, 0, 0, 0, '{STATICURL}image/feed/blog.gif', '發佈', 'home.php?mod=spacecp&ac=blog', 2, '');
 INSERT INTO pre_common_nav VALUES ('', '0', '相冊', '', 'home.php?mod=space&do=album', 'album', 0, 0, -1, 3, 0, 0, 0, 0, '{STATICURL}image/feed/album.gif', '上傳', 'home.php?mod=spacecp&ac=upload', 2, '');
@@ -152,11 +152,11 @@ INSERT INTO pre_common_nav VALUES ('', '0', '記錄', '', 'home.php?mod=space&do
 INSERT INTO pre_common_nav VALUES ('', '0', '廣播', '', 'home.php?mod=follow', 'follow', 0, 0, -1, 6, 0, 0, 0, 0, '{STATICURL}image/feed/follow.gif', '', '', 2, '');
 INSERT INTO pre_common_nav VALUES ('', '0', '{hr}', '', '', '', 0, 1, 1, 8, 0, 0, 0, 0, '', '', '', 2, '');
 
-INSERT INTO pre_common_nav VALUES ('', '0', '好友', '', 'home.php?mod=space&do=friend', 'friend', 0, 0, 0, 1, 0, 0, 0, 0, '{STATICURL}image/feed/friend_b.png', '', '', 3, '');
-INSERT INTO pre_common_nav VALUES ('', '0', '帖子', '', 'forum.php?mod=guide&view=my', 'thread', 0, 0, 0, 2, 0, 0, 0, 0, '{STATICURL}image/feed/thread_b.png', '', '', 3, '');
-INSERT INTO pre_common_nav VALUES ('', '0', '收藏', '', 'home.php?mod=space&do=favorite&view=me', 'favorite', 0, 0, 0, 3, 0, 0, 0, 0, '{STATICURL}image/feed/favorite_b.png', '', '', 3, '');
+INSERT INTO pre_common_nav VALUES ('', '0', 'Friend', '', 'home.php?mod=space&do=friend', 'friend', 0, 0, 0, 1, 0, 0, 0, 0, '{STATICURL}image/feed/friend_b.png', '', '', 3, '');
+INSERT INTO pre_common_nav VALUES ('', '0', 'Thread', '', 'forum.php?mod=guide&view=my', 'thread', 0, 0, 0, 2, 0, 0, 0, 0, '{STATICURL}image/feed/thread_b.png', '', '', 3, '');
+INSERT INTO pre_common_nav VALUES ('', '0', 'Favorite', '', 'home.php?mod=space&do=favorite&view=me', 'favorite', 0, 0, 0, 3, 0, 0, 0, 0, '{STATICURL}image/feed/favorite_b.png', '', '', 3, '');
 INSERT INTO pre_common_nav VALUES ('', '0', '道具', '', 'home.php?mod=magic', 'magic', 0, 0, 1, 4, 0, 0, 0, 0, '{STATICURL}image/feed/magic_b.png', '', '', 3, '');
-INSERT INTO pre_common_nav VALUES ('', '0', '勳章', '', 'home.php?mod=medal', 'medal', 0, 0, 1, 5, 0, 0, 0, 0, '{STATICURL}image/feed/medal_b.png', '', '', 3, '');
+INSERT INTO pre_common_nav VALUES ('', '0', 'Medal', '', 'home.php?mod=medal', 'medal', 0, 0, 1, 5, 0, 0, 0, 0, '{STATICURL}image/feed/medal_b.png', '', '', 3, '');
 INSERT INTO pre_common_nav VALUES ('', '0', '任務', '', 'home.php?mod=task', 'task', 0, 0, 1, 6, 0, 0, 0, 0, '{STATICURL}image/feed/task_b.png', '', '', 3, '');
 INSERT INTO pre_common_nav VALUES ('', '0', '淘帖', '', 'forum.php?mod=collection&op=my', 'collection', 0, 0, -1, 7, 0, 0, 0, 0, '{STATICURL}image/feed/collection_b.png', '', '', 3, '');
 INSERT INTO pre_common_nav VALUES ('', '0', '動態', '', 'home.php', 'feed', 0, 0, -1, 8, 0, 0, 0, 0, '{STATICURL}image/feed/feed_b.png', '', '', 3, '');
@@ -474,7 +474,7 @@ INSERT INTO pre_common_setting VALUES ('regconnect', '1');
 INSERT INTO pre_common_setting VALUES ('regctrl','0');
 INSERT INTO pre_common_setting VALUES ('regfloodctrl','0');
 INSERT INTO pre_common_setting VALUES ('reginput','a:4:{s:8:\"username\";s:8:\"username\";s:8:\"password\";s:8:\"password\";s:9:\"password2\";s:9:\"password2\";s:5:\"email\";s:5:\"email\";}');
-INSERT INTO pre_common_setting VALUES ('reglinkname','立即註冊');
+INSERT INTO pre_common_setting VALUES ('reglinkname','Register');
 INSERT INTO pre_common_setting VALUES ('regname','register');
 INSERT INTO pre_common_setting VALUES ('regstatus','1');
 INSERT INTO pre_common_setting VALUES ('regverify','0');
@@ -774,25 +774,25 @@ INSERT INTO pre_common_template VALUES ('1','默認模板套系','./template/def
 
 
 
-INSERT INTO pre_common_usergroup VALUES ('1','1','system','private','管理員','0','0','9','','','1','1','1','1','0','0','10');
-INSERT INTO pre_common_usergroup VALUES ('2','2','system','private','超級版主','0','0','8','','','1','1','1','1','0','0','10');
-INSERT INTO pre_common_usergroup VALUES ('3','3','system','private','版主','0','0','7','','','1','1','1','1','0','0','10');
-INSERT INTO pre_common_usergroup VALUES ('4','0','system','private','禁止發言','0','0','0','','','1','1','0','0','0','0','0');
-INSERT INTO pre_common_usergroup VALUES ('5','0','system','private','禁止訪問','0','0','0','','','0','1','0','0','0','0','0');
-INSERT INTO pre_common_usergroup VALUES ('6','0','system','private','禁止 IP','0','0','0','','','0','1','0','0','0','0','0');
-INSERT INTO pre_common_usergroup VALUES ('7','0','system','private','遊客','0','0','0','','','1','1','0','0','0','0','10');
-INSERT INTO pre_common_usergroup VALUES ('8','0','system','private','等待驗證會員','0','0','0','','','1','1','0','0','0','0','0');
-INSERT INTO pre_common_usergroup VALUES ('9','0','member','private','限制會員','-9999999','0','0','','','1','1','0','0','0','0','0');
-INSERT INTO pre_common_usergroup VALUES ('10','0','member','private','新手上路','0','50','1','','','1','1','0','0','0','0','10');
-INSERT INTO pre_common_usergroup VALUES ('11','0','member','private','註冊會員','50','200','2','','','1','1','0','0','0','0','10');
-INSERT INTO pre_common_usergroup VALUES ('12','0','member','private','中級會員','200','500','3','','','1','1','0','0','0','0','10');
-INSERT INTO pre_common_usergroup VALUES ('13','0','member','private','高級會員','500','1000','4','','','1','1','0','0','0','0','10');
-INSERT INTO pre_common_usergroup VALUES ('14','0','member','private','金牌會員','1000','3000','6','','','1','1','0','0','0','0','10');
-INSERT INTO pre_common_usergroup VALUES ('15','0','member','private','論壇元老','3000','9999999','8','','','1','1','0','0','0','0','10');
-INSERT INTO pre_common_usergroup VALUES ('16','3','special','private','實習版主','0','0','7','','','1','1','0','0','0','0','10');
-INSERT INTO pre_common_usergroup VALUES ('17','2','special','private','網站編輯','0','0','8','','','1','1','0','0','0','0','10');
-INSERT INTO pre_common_usergroup VALUES ('18','1','special','private','信息監察員','0','0','9','','','1','1','0','0','0','0','10');
-INSERT INTO pre_common_usergroup VALUES ('19','3','special','private','審核員','0','0','7','','','1','1','0','0','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('1','1','system','private','Admin','0','0','9','','','1','1 ','1','1','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('2','2','system','private','Super Moderator','0','0','8','','','1',' 1','1','1','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('3','3','system','private','Moderator','0','0','7','','','1','1 ','1','1','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('4','0','system','private','No speaking','0','0','0','','','1','1 ','0','0','0','0','0');
+INSERT INTO pre_common_usergroup VALUES ('5','0','system','private','Access prohibited','0','0','0','','','0','1 ','0','0','0','0','0');
+INSERT INTO pre_common_usergroup VALUES ('6','0','system','private','Forbidden IP','0','0','0','','','0','1 ','0','0','0','0','0');
+INSERT INTO pre_common_usergroup VALUES ('7','0','system','private','Guest','0','0','0','','','1','1' ,'0','0','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('8','0','system','private','Waiting for member verification','0','0','0','','','1',' 1','0','0','0','0','0');
+INSERT INTO pre_common_usergroup VALUES ('9','0','member','private','Restricted member','-9999999','0','0','','','1',' 1','0','0','0','0','0');
+INSERT INTO pre_common_usergroup VALUES ('10','0','member','private','Beginner','0','50','1','','','1','1 ','0','0','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('11','0','member','private','Registered member','50','200','2','','','1','1 ','0','0','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('12','0','member','private','Intermediate member','200','500','3','','','1','1 ','0','0','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('13','0','member','private','Premium member','500','1000','4','','','1','1 ','0','0','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('14','0','member','private','Gold Member','1000','3000','6','','','1','1 ','0','0','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('15','0','member','private','Forum veteran','3000','9999999','8','','','1','1 ','0','0','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('16','3','special','private','Internship moderator','0','0','7','','','1',' 1','0','0','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('17','2','special','private','Site editor','0','0','8','','','1','1 ','0','0','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('18','1','special','private','Information Ombudsman','0','0','9','','','1',' 1','0','0','0','0','10');
+INSERT INTO pre_common_usergroup VALUES ('19','3','special','private','Auditor','0','0','7','','','1','1 ','0','0','0','0','10');
 
 
 INSERT INTO pre_common_usergroup_field SET `groupid`='1',`allowgroupdirectpost`='3',`allowgroupposturl`='3',`readaccess`='200',`allowpost`='1',`allowreply`='1',`allowpostpoll`='1',`allowpostreward`='1',`allowposttrade`='1',`allowpostactivity`='1',`allowdirectpost`='3',`allowgetattach`='1',`allowgetimage`='1',`allowpostattach`='1',`allowpostimage`='1',`allowvote`='1',`allowsearch`='127',`allowcstatus`='1',`allowinvisible`='1',`allowtransfer`='1',`allowsetreadperm`='1',`allowsetattachperm`='1',`allowposttag`='1',`allowhidecode`='1',`allowhtml`='1',`allowanonymous`='1',`allowsigbbcode`='1',`allowsigimgcode`='1',`allowmagics`='2',`disableperiodctrl`='1',`reasonpm`='0',`maxprice`='30',`maxsigsize`='500',`maxattachsize`='2048000',`maxsizeperday`='0',`maxpostsperhour`='0',`attachextensions`='',`raterange`='',`mintradeprice`='1',`maxtradeprice`='0',`minrewardprice`='1',`maxrewardprice`='0',`magicsdiscount`='0',`maxmagicsweight`='200',`allowpostdebate`='1',`tradestick`='5',`exempt`='255',`maxattachnum`='0',`allowposturl`='3',`allowrecommend`='1',`allowpostrushreply`='1',`maxfriendnum`='0',`maxspacesize`='0',`allowcomment`='1',`allowcommentarticle`='1000',`searchinterval`='0',`searchignore`='0',`allowblog`='1',`allowdoing`='1',`allowupload`='1',`allowshare`='1',`allowcss`='0',`allowpoke`='1',`allowfriend`='1',`allowclick`='1',`allowmagic`='0',`allowstat`='1',`videophotoignore`='1',`allowviewvideophoto`='1',`allowmyop`='1',`magicdiscount`='0',`domainlength`='5',`seccode`='1',`disablepostctrl`='1',`allowbuildgroup`='30',`edittimelimit`='0',`allowpostarticle`='1',`allowdownlocalimg`='1',`allowspacediyhtml`='1',`allowspacediybbcode`='1',`allowspacediyimgcode`='1',`allowcommentpost`='3',`allowcommentitem`='1',`allowreplycredit` = '1',`allowstatdata`='1',`ignorecensor`='1',`allowsendallpm`='1', `allowdownremoteimg`='1', `allowmediacode`='1', `allowbegincode`='1', `allowat`='50', `allowcreatecollection`='5', `allowcommentcollection`='1', `allowfollowcollection`='30';
@@ -825,7 +825,7 @@ INSERT INTO pre_forum_bbcode VALUES ('4','0','sub','bb_sub.gif','<sub>{1}</sub>'
 
 
 INSERT INTO pre_forum_forum SET `fid`='1',`fup`='0',`type`='group',`name`='Discuz!',`status`='1';
-INSERT INTO pre_forum_forum SET `fid`='2',`fup`='1',`type`='forum',`name`='默認版塊',`status`='1',`allowsmilies`='1',`allowbbcode`='1',`allowimgcode`='1',`allowmediacode`='1',`allowpostspecial`='1',`recyclebin`='1', `allowfeed`='1';
+INSERT INTO pre_forum_forum SET `fid`='2',`fup`='1',`type`='forum',`name`='Default section',`status`='1',`allowsmilies`='1',`allowbbcode`='1',`allowimgcode`='1',`allowmediacode`='1',`allowpostspecial`='1',`recyclebin`='1', `allowfeed`='1';
 INSERT INTO pre_forum_forum (`fid`, `fup`, `type`, `name`, `status`, `displayorder`, `styleid`, `threads`, `posts`, `todayposts`, `lastpost`, `allowsmilies`, `allowhtml`, `allowbbcode`, `allowimgcode`, `allowmediacode`, `allowanonymous`, `allowpostspecial`, `allowspecialonly`, `alloweditrules`, `allowfeed`, `allowside`, `recyclebin`, `modnewposts`, `jammer`, `disablewatermark`, `inheritedmod`, `autoclose`, `forumcolumns`, `threadcaches`, `alloweditpost`, `simple`, `modworks`, `allowglobalstick`, `level`, `commoncredits`, `archive`, `recommend`) VALUES(3, 0, 'group', '影音', 3, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0);
 INSERT INTO pre_forum_forum (`fid`, `fup`, `type`, `name`, `status`, `displayorder`, `styleid`, `threads`, `posts`, `todayposts`, `lastpost`, `allowsmilies`, `allowhtml`, `allowbbcode`, `allowimgcode`, `allowmediacode`, `allowanonymous`, `allowpostspecial`, `allowspecialonly`, `alloweditrules`, `allowfeed`, `allowside`, `recyclebin`, `modnewposts`, `jammer`, `disablewatermark`, `inheritedmod`, `autoclose`, `forumcolumns`, `threadcaches`, `alloweditpost`, `simple`, `modworks`, `allowglobalstick`, `level`, `commoncredits`, `archive`, `recommend`) VALUES(4, 0, 'group', '情感', 3, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0);
 INSERT INTO pre_forum_forum (`fid`, `fup`, `type`, `name`, `status`, `displayorder`, `styleid`, `threads`, `posts`, `todayposts`, `lastpost`, `allowsmilies`, `allowhtml`, `allowbbcode`, `allowimgcode`, `allowmediacode`, `allowanonymous`, `allowpostspecial`, `allowspecialonly`, `alloweditrules`, `allowfeed`, `allowside`, `recyclebin`, `modnewposts`, `jammer`, `disablewatermark`, `inheritedmod`, `autoclose`, `forumcolumns`, `threadcaches`, `alloweditpost`, `simple`, `modworks`, `allowglobalstick`, `level`, `commoncredits`, `archive`, `recommend`) VALUES(5, 0, 'group', '生活', 3, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0);
@@ -929,10 +929,10 @@ INSERT INTO pre_forum_medal VALUES ('10','論壇元老','0','medal10.gif','0','0
 
 
 
-INSERT INTO pre_forum_onlinelist VALUES ('1','1','管理員','online_admin.gif');
-INSERT INTO pre_forum_onlinelist VALUES ('2','2','超級版主','online_supermod.gif');
-INSERT INTO pre_forum_onlinelist VALUES ('3','3','版主','online_moderator.gif');
-INSERT INTO pre_forum_onlinelist VALUES ('0','4','會員','online_member.gif');
+INSERT INTO pre_forum_onlinelist VALUES ('1','1','Admin','online_admin.gif');
+INSERT INTO pre_forum_onlinelist VALUES ('2','2','Super moderator','online_supermod.gif');
+INSERT INTO pre_forum_onlinelist VALUES ('3','3','Moderator','online_moderator.gif');
+INSERT INTO pre_forum_onlinelist VALUES ('0','4','Member','online_member.gif');
 
 
 
