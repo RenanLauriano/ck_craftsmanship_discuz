@@ -116,9 +116,9 @@ function _checksec(type, idhash, showmsg, recall, modid) {
 			obj.innerHTML = '<img src="'+ IMGDIR + '/check_error.gif" width="16" height="16" class="vm" />';
 			if(showmsg) {
 				if(type == 'code') {
-					showError('驗證碼錯誤，請重新填寫');
+					showError('Verification code error, please re-enter');
 				} else if(type == 'qaa') {
-					showError('驗證問答錯誤，請重新填寫');
+					showError('There is an error in the verification question and answer, please re-fill');
 				}
 				recall(0);
 			}

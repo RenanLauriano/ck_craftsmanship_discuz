@@ -141,7 +141,7 @@ function validate(theform) {
 					setTimeout(function () { validate(theform); }, 100);
 					chk = 0;
 				} else if(chkv.indexOf('check_right') === -1) {
-					showError('驗證碼錯誤，請重新填寫');
+					showError('Verification code error, please re-enter');
 					chk = 0;
 				}
 			}
