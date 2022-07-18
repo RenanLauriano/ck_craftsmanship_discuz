@@ -1,0 +1,30 @@
+version: "3"
+
+services:
+  db:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+  
+  discuz:
+    build: .
+    image: ck_craftsmanship_discuz
+    volumes:
+      - .:/ck_craftsmanship_discuz
+    ports:
+      - "80:80"
+    links:
+      - db
+  
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "8080:80"
+    volumes:
+      - ./uploads.ini:/usr/local/etc/php/conf.d/php-phpmyadmin.ini

@@ -1,0 +1,197 @@
+<?php
+
+/**
+ *      [Discuz!] (C)2001-2099 Comsenz Inc.
+ *      This is NOT a freeware, use is subject to license terms
+ *
+ *      $Id: lang_admincp_menu.php 34034 2013-09-24 01:23:05Z nemohou $
+ */
+
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
+$lang = array
+(
+
+	'header_index' => 'Front page', //首頁
+	'header_global' => 'Global', //全局
+	'header_forum' => 'Forum', //論壇
+	'header_user' => 'User', //用戶
+	'header_topic' => 'Content', //內容
+	'header_extended' => 'Operation', //運營
+	'header_plugin' => 'Plugin', //插件
+	'header_template' => 'Template', //模板
+	'header_style' => 'Interface', //界面
+	'header_adv' => 'Advertise', //廣告
+	'header_tools' => 'Tool', //工具
+	'header_uc' => 'UCenter', //UCenter
+	'header_welcome' => 'Hello', //您好
+	'header_logout' => 'Quit', //退出
+	'header_bbs' => 'Site Home', //站點首頁
+	'header_portal' => 'Portal', //門戶
+	'header_group' => 'Group', //群組
+	'header_safe' => 'Safety', //安全
+	'header_founder' => 'Webmaster', //站長
+	'header_cloudaddons' => 'Application Center', //應用中心
+	'menu_home' => 'Management Center Home', //管理中心首頁
+	'menu_home_clearhistorymenus' => 'Clear history operation', //清空歷史操作
+	'menu_setting_basic' => 'Site Information', //站點信息
+	'menu_setting_access' => 'Registration and Access Control', //註冊與訪問控制
+	'menu_setting_customnav' => 'Navigation settings', //導航設置
+	'menu_setting_styles' => 'Interface settings', //界面設置
+	'menu_setting_optimize' => 'Performance optimization', //性能優化
+	'menu_setting_seo' => 'SEO settings', //SEO設置
+	'menu_setting_functions' => 'Site function', //站點功能
+	'menu_setting_domain' => 'Domain settings', //域名設置
+	'menu_setting_user' => 'User rights', //用戶權限
+	'menu_setting_credits' => 'Points settings', //積分設置
+	'menu_setting_mail' => 'E-Mail settings', //郵件設置
+	'menu_setting_sec' => 'Waterproof settings', //防灌水設置
+	'menu_setting_datetime' => 'Time setting', //時間設置
+	'menu_setting_attachments' => 'Upload settings', //上傳設置
+	'menu_setting_imgwater' => 'Watermark settings', //水印設置
+	'menu_setting_uc' => 'UCenter settings', //UCenter 設置
+	'menu_setting_uchome' => 'UCHome settings', //UCHome 設置
+	'menu_setting_follow' => 'Broadcast settings', //廣播設置
+	'menu_setting_home' => 'Space settings', //空間設置
+	'menu_setting_search' => 'Search settings', //搜索設置
+	'menu_setting_district' => 'Locale', //地區設置
+	'menu_setting_ranklist' => 'Leaderboard Settings', //排行榜設置
+	'menu_setting_mobile' => 'Mobile version settings', //手機版設置
+	'menu_setting_tag' => 'Tag management', //標籤管理
+	'menu_setting_antitheft' => 'Anti-collection settings', //防採集設置
+	'menu_forums' => 'Section management', //版塊管理
+	'menu_forums_merge' => 'Section merge', //版塊合併
+	'menu_forums_threadtypes' => 'Topic classification', //主題分類
+	'menu_forums_infotypes' => 'Classified information', //分類信息
+	'menu_forums_infooption' => 'Category information options', //分類信息選項
+	'menu_grid' => 'Four grids on the home page', //首頁四格
+	'menu_members_add' => 'Add user', //添加用戶
+	'menu_members_edit' => 'User Management', //用戶管理
+	'menu_members_newsletter' => 'Send notification', //發送通知
+	'menu_members_mobile' => 'Send mobile notifications', //發送手機通知
+	'menu_usertag' => 'User tag', //用戶標籤
+	'menu_members_edit_ban_user' => 'Ban users', //禁止用戶
+	'menu_members_ipban' => 'Ban IP', //禁止 IP
+	'menu_members_credits' => 'Point reward and punishment', //積分獎懲
+	'menu_members_profile' => 'User section', //用戶欄目
+	'menu_members_profile_group' => 'User column grouping', //用戶欄目分組
+	'menu_members_verify_setting' => 'Authentication settings', //認證設置
+	'menu_members_stat' => 'Statistics', //資料統計
+	'menu_moderate_modmembers' => 'Moderate users', //審核用戶
+	'menu_profilefields' => 'User column customization', //用戶欄目定制
+	'menu_admingroups' => 'Management group', //管理組
+	'menu_usergroups' => 'User group', //用戶組
+	'menu_follow' => 'Recommended attention', //推薦關注
+	'menu_defaultuser' => 'Refer a friend', //推薦好友
+	'menu_moderate_posts' => 'Content Moderation', //內容審核
+	'menu_moderate_blogs' => 'Audit log', //審核日誌
+	'menu_moderate_doings' => 'Audit records', //審核記錄
+	'menu_moderate_pictures' => 'Review images', //審核圖片
+	'menu_moderate_shares' => 'Review and share', //審核分享
+	'menu_moderate_comments' => 'Moderate comments/messages', //審核評論/留言
+	'menu_moderate_articles' => 'Review articles', //審核文章
+	'menu_moderate_articlecomments' => 'Moderate article comments', //審核文章評論
+	'menu_maint_threads' => 'Forum topic management', //論壇主題管理
+	'menu_maint_prune' => 'Forum batch delete posts', //論壇批量刪帖
+	'menu_maint_attaches' => 'Forum attachment management', //論壇附件管理
+	'menu_maint_threads_group' => 'Group topic management', //群組主題管理
+	'menu_maint_prune_group' => 'Group batch delete posts', //群組批量刪帖
+	'menu_maint_attaches_group' => 'Group attachment management', //群組附件管理
+	'menu_setting_collection' => 'Amoy post management', //淘帖管理
+	'menu_posting_tags' => 'Tag management', //標籤管理
+	'menu_posting_censors' => 'Word filter', //詞語過濾
+	'menu_remoderate' => 'Content review', //內容重新審核
+	'menu_maint_report' => 'User report', //用戶舉報
+	'menu_threads_forumstick' => 'Section/group pinned', //版塊/群組置頂
+	'menu_post_position_index' => 'Post optimization', //帖子優化
+	'menu_postcomment' => 'Post Comment Management', //帖子點評管理
+	'menu_maint_doing' => 'Records management', //記錄管理
+	'menu_maint_blog' => 'Log management', //日誌管理
+	'menu_maint_blog_recycle_bin' => 'Log recycle bin', //日誌回收站
+	'menu_maint_feed' => 'Dynamic management', //動態管理
+	'menu_maint_album' => 'Album management', //相冊管理
+	'menu_maint_pic' => 'Image management', //圖片管理
+	'menu_maint_comment' => 'Comment/Message Management', //評論/留言管理
+	'menu_maint_share' => 'Share management', //分享管理
+	'menu_posting_attachtypes' => 'Attachment Type Size', //附件類型尺寸
+	'menu_moderate_recyclebin' => 'Topic Recycle Bin', //主題回收站
+	'menu_moderate_recyclebinpost' => 'Reply Recycle Bin', //回帖回收站
+	'menu_founder' => 'Site Information', //站點信息
+	'menu_founder_perm' => 'Background management team', //後台管理團隊
+	'menu_founder_groupperm' => 'Edit Team Title Permission - {group}', //編輯團隊職務權限 - {group}
+	'menu_founder_permgrouplist' => 'Edit permission - {perm}', //編輯權限 - {perm}
+	'menu_founder_memberperm' => 'Edit Team Member - {username}', //編輯團隊成員 - {username}
+	'menu_patch' => 'Security center', //安全中心
+	'menu_upgrade' => 'Online upgrade', //在線升級
+	'menu_optimizer' => 'Optimization Master', //優化大師
+	'menu_security' => 'Security guru', //安全大師
+	'menu_serversec' => 'Underlying security', //底層安全
+	'menu_addons' => 'Application Center', //應用中心
+	'menu_plugins' => 'Plugin management', //插件管理
+	'menu_tasks' => 'Site tasks', //站點任務
+	'menu_magics' => 'Prop Center', //道具中心
+	'menu_medals' => 'Medal Center', //勳章中心
+	'menu_misc_help' => 'Site help', //站點幫助
+	'menu_ec' => 'E-commerce', //電子商務
+	'menu_card' => 'Recharge card password', //充值卡密
+	'menu_styles' => 'Template management', //模板管理
+	'menu_styles_templates' => 'Template package management', //模板套系管理
+	'menu_templates_add' => 'Design a new template', //設計新模板
+	'menu_posting_smilies' => 'Expression management', //表情管理
+	'menu_click' => 'Gesture action', //表態動作
+	'menu_thread_icon' => 'Theme icon', //主題圖標
+	'menu_thread_stamp' => 'Subject identification', //主題鑒定
+	'menu_posting_editor' => 'Editor settings', //編輯器設置
+	'menu_misc_onlinelist' => 'Online list icon', //在線列表圖標
+	'menu_misc_link' => 'Links', //友情鏈接
+	'menu_misc_relatedlink' => 'Affiliate link', //關聯鏈接
+	'memu_focus_topic' => 'Webmaster Recommended', //站長推薦
+	'menu_adv_custom' => 'Site advertisement', //站點廣告
+	'menu_misc_announce' => 'Site announcement', //站點公告
+	'menu_tools_updatecaches' => 'Refresh cache', //更新緩存
+	'menu_tools_postposition' => 'High-rise post optimization', //高樓帖優化
+	'menu_tools_updatecounters' => 'Update statistics', //更新統計
+	'menu_tools_javascript' => 'Data call', //數據調用
+	'menu_tools_relatedtag' => ' Tag aggregation', // 標籤聚合
+	'menu_tools_creditwizard' => 'Points Strategy Wizard', //積分策略嚮導
+	'menu_tools_fileperms' => 'File permission check', //文件權限檢查
+	'menu_tools_hookcheck' => 'Embedded checkpoint', //嵌入點校驗
+	'menu_tools_filecheck' => 'File check', //文件校驗
+	'menu_tools_replacekey' => 'Key update', //密鑰更新
+	'menu_db' => 'Database', //數據庫
+	'menu_postsplit' => 'Post table', //帖子分表
+	'menu_threadsplit' => 'Topic table', //主題分表
+	'menu_membersplit' => 'User table optimization', //用戶表優化
+	'menu_logs' => 'Running record', //運行記錄
+	'menu_custommenu_manage' => 'Common Operations Management', //常用操作管理
+	'menu_misc_cron' => 'Scheduled Tasks', //計劃任務
+	'menu_article' => 'Article management', //文章管理
+	'menu_portalcategory' => 'Channel column', //頻道欄目
+	'menu_blogcategory' => 'Log classification', //日誌分類
+	'menu_albumcategory' => 'Album classification', //相冊分類
+	'menu_block' => 'Module management', //模塊管理
+	'menu_blockstyle' => 'Module template', //模塊模板
+	'menu_portalpermission' => 'List of permissions', //權限列表
+	'menu_blockxml' => 'Third-party modules', //第三方模塊
+	'menu_topic' => 'Thematic management', //專題管理
+	'menu_html' => 'HTML management', //HTML管理
+	'menu_diytemplate' => 'Page management', //頁面管理
+	'menu_group_setting' => 'Group settings', //群組設置
+	'menu_group_type' => 'Group classification', //群組分類
+	'menu_group_manage' => 'Group management', //群組管理
+	'menu_group_userperm' => 'Group owner permissions', //群主權限
+	'menu_group_level' => 'Group level', //群組等級
+	'menu_group_mod' => 'Moderation group', //審核群組
+	'menu_safe_setting' => 'Basic settings', //基本設置
+	'menu_safe_security' => 'Waterproof wall', //防水牆
+	'menu_safe_seccheck' => 'Verify settings', //驗證設置
+	'menu_safe_accountguard' => 'Account Bodyguard', //賬號保鏢
+	'menu_setting_manyou' => 'Manyou settings', //Manyou 設置
+	'menu_setting_qqconnect' => 'QQ binding settings', //QQ 綁定設置
+	'menu_cloud_doctor' => 'Diagnostic tools', //診斷工具
+	'admincp_title' => $_G['setting']['bbname'].' control center', // 管理中心
+);
+
+?>
