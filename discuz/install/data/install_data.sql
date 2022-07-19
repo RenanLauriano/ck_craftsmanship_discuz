@@ -914,16 +914,16 @@ INSERT INTO pre_forum_imagetype VALUES ('3','1','呆呆男','smiley','3','grapem
 
 
 
-INSERT INTO pre_forum_medal VALUES ('1','最佳新人','0','medal1.gif','0','0','註冊賬號後積極發帖的會員','0','','0','0');
-INSERT INTO pre_forum_medal VALUES ('2','活躍會員','0','medal2.gif','0','0','經常參與各類話題的討論，發帖內容較有主見','0','','0','0');
-INSERT INTO pre_forum_medal VALUES ('3','熱心會員','0','medal3.gif','0','0','經常幫助其他會員答疑','0','','0','0');
-INSERT INTO pre_forum_medal VALUES ('4','推廣達人','0','medal4.gif','0','0','積極宣傳本站，為本站帶來更多註冊會員','0','','0','0');
-INSERT INTO pre_forum_medal VALUES ('5','宣傳達人','0','medal5.gif','0','0','積極宣傳本站，為本站帶來更多的用戶訪問量','0','','0','0');
-INSERT INTO pre_forum_medal VALUES ('6','灌水之王','0','medal6.gif','0','0','經常在論壇發帖，且發帖量較大','0','','0','0');
-INSERT INTO pre_forum_medal VALUES ('7','突出貢獻','0','medal7.gif','0','0','長期對論壇的繁榮而不斷努力，或多次提出建設性意見','0','','0','0');
-INSERT INTO pre_forum_medal VALUES ('8','優秀版主','0','medal8.gif','0','0','活躍且盡責職守的版主','0','','0','0');
-INSERT INTO pre_forum_medal VALUES ('9','榮譽管理','0','medal9.gif','0','0','曾經為論壇做出突出貢獻目前已離職的版主','0','','0','0');
-INSERT INTO pre_forum_medal VALUES ('10','論壇元老','0','medal10.gif','0','0','為論壇做出突出貢獻的會員','0','','0','0');
+INSERT INTO pre_forum_medal VALUES ('1','Best newcomer','0','medal1.gif','0','0','Members who actively post after registering an account','0','', '0','0');
+INSERT INTO pre_forum_medal VALUES ('2','Active member','0','medal2.gif','0','0','I often participate in discussions on various topics, and post content is more assertive',' 0','','0','0');
+INSERT INTO pre_forum_medal VALUES ('3','Enthusiastic members','0','medal3.gif','0','0','Always help other members to answer questions','0','','0' ,'0');
+INSERT INTO pre_forum_medal VALUES ('4','Promotional talent','0','medal4.gif','0','0','Actively promote this site and bring more registered members to this site',' 0','','0','0');
+INSERT INTO pre_forum_medal VALUES ('5','Propaganda master','0','medal5.gif','0','0','Actively promote this site and bring more user traffic to this site' ,'0','','0','0');
+INSERT INTO pre_forum_medal VALUES ('6','Irrigation King','0','medal6.gif','0','0','I often post in the forum, and the number of posts is large','0', '','0','0');
+INSERT INTO pre_forum_medal VALUES ('7','Outstanding Contribution','0','medal7.gif','0','0','Continuous efforts for the prosperity of the forum for a long time, or many constructive comments' ,'0','','0','0');
+INSERT INTO pre_forum_medal VALUES ('8','Excellent Moderator','0','medal8.gif','0','0','Active and Responsible Moderator','0','', '0','0');
+INSERT INTO pre_forum_medal VALUES ('9','Honor Management','0','medal9.gif','0','0','Moderators who have made outstanding contributions to the forum and have now left','0 ','','0','0');
+INSERT INTO pre_forum_medal VALUES ('10','Forum veteran','0','medal10.gif','0','0','Members who have made outstanding contributions to the forum','0','', '0','0');
 
 
 
