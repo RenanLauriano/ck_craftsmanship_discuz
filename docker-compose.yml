@@ -14,7 +14,7 @@ services:
     build: .
     image: ck_craftsmanship_discuz
     volumes:
-      - .:/ck_craftsmanship_discuz
+      - './discuz:/var/www/html'
     ports:
       - "80:80"
     links:
@@ -28,4 +28,3 @@ services:
       - "8080:80"
     volumes:
       - ./uploads.ini:/usr/local/etc/php/conf.d/php-phpmyadmin.ini
-      
