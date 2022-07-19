@@ -71,9 +71,9 @@ function checkPwdComplexity(firstObj, secondObj, modify) {
 	modifypwd = modify || false;
 	firstObj.onblur = function () {
 		if(firstObj.value == '') {
-			var pwmsg = !modifypwd ? '請填寫密碼' : profileTips;
+			var pwmsg = !modifypwd ? 'Please fill in the password' : profileTips;
 			if(pwlength > 0) {
-				pwmsg += ', 最小長度為 '+pwlength+' 個字符';
+				pwmsg += ', Minimum length is '+pwlength+' characters';
 			}
 			errormessage(firstObj.id, pwmsg);
 		}else{
@@ -85,12 +85,12 @@ function checkPwdComplexity(firstObj, secondObj, modify) {
 		if(pwlength == 0 || $(firstObj.id).value.length >= pwlength) {
 			var passlevels = new Array('','弱','中','強');
 			var passlevel = checkstrongpw(firstObj.id);
-			errormessage(firstObj.id, '<span class="passlevel passlevel'+passlevel+'">密碼強度:'+passlevels[passlevel]+'</span>');
+			errormessage(firstObj.id, '<span class="passlevel passlevel'+passlevel+'">Password strength:'+passlevels[passlevel]+'</span>');
 		}
 	};
 	secondObj.onblur = function () {
 		if(secondObj.value == '') {
-			errormessage(secondObj.id, !modifypwd ? '請再次輸入密碼' : profileTips);
+			errormessage(secondObj.id, !modifypwd ? 'Please enter your password again' : profileTips);
 		}
 		checkpassword(firstObj.id, secondObj.id);
 	};
@@ -109,7 +109,7 @@ function addMailEvent(mailObj) {
 	};
 	mailObj.onblur = function () {
 		if(mailObj.value == '') {
-			errormessage(mailObj.id, '請輸入郵箱地址');
+			errormessage(mailObj.id, 'Please input the email address');
 		}
 		emailMenuOp(3, null, mailObj.id);
 	};
@@ -273,12 +273,12 @@ function checkusername(id) {
 		lastusername = username;
 	}
 	if(username.match(/<|>|"|\(|\)|'/ig)) {
-		errormessage(id, '用戶名包含敏感字符');
+		errormessage(id, 'Username contains sensitive characters');
 		return;
 	}
 	var unlen = username.replace(/[^\x00-\xff]/g, "**").length;
 	if(unlen < 3 || unlen > 15) {
-		errormessage(id, unlen < 3 ? '用戶名不得小於 3 個字符' : '用戶名不得超過 15 個字符');
+		errormessage(id, unlen < 3 ? 'Username must be at least 3 characters' : 'Username must not exceed 15 characters');
 		return;
 	}
 	var x = new Ajax();
@@ -294,7 +294,7 @@ function checkpassword(id1, id2) {
 	}
 	if(pwlength > 0) {
 		if($(id1).value.length < pwlength) {
-			errormessage(id1, '密碼太短，不得少於 '+pwlength+' 個字符');
+			errormessage(id1, 'Password is too short, must not be less than '+pwlength+' characters');
 			return;
 		}
 	}
@@ -304,33 +304,33 @@ function checkpassword(id1, id2) {
 		for(var i in strongpw) {
 			if(strongpw[i] === 1 && !$(id1).value.match(/\d+/g)) {
 				strongpw_error = true;
-				strongpw_str[j] = '數字';
+				strongpw_str[j] = 'Number';
 				j++;
 			}
 			if(strongpw[i] === 2 && !$(id1).value.match(/[a-z]+/g)) {
 				strongpw_error = true;
-				strongpw_str[j] = '小寫字母';
+				strongpw_str[j] = 'Lower case letters';
 				j++;
 			}
 			if(strongpw[i] === 3 && !$(id1).value.match(/[A-Z]+/g)) {
 				strongpw_error = true;
-				strongpw_str[j] = '大寫字母';
+				strongpw_str[j] = 'Uppercase letter';
 				j++;
 			}
 			if(strongpw[i] === 4 && !$(id1).value.match(/[^A-Za-z0-9]+/g)) {
 				strongpw_error = true;
-				strongpw_str[j] = '特殊符號';
+				strongpw_str[j] = 'Special symbols';
 				j++;
 			}
 		}
 		if(strongpw_error) {
-			errormessage(id1, '密碼太弱，密碼中必須包含 '+strongpw_str.join('，'));
+			errormessage(id1, 'Password is too weak, password must contain '+strongpw_str.join('，'));
 			return;
 		}
 	}
 	errormessage(id2);
 	if($(id1).value != $(id2).value) {
-		errormessage(id2, '兩次輸入的密碼不一致');
+		errormessage(id2, 'The passwords entered twice do not match');
 	} else {
 		errormessage(id2, !modifypwd ? 'succeed' : '');
 	}
@@ -345,7 +345,7 @@ function checkemail(id) {
 		lastemail = email;
 	}
 	if(email.match(/<|"/ig)) {
-		errormessage(id, 'Email 包含敏感字符');
+		errormessage(id, 'Email contains sensitive characters');
 		return;
 	}
 	var x = new Ajax();
@@ -364,7 +364,7 @@ function checkinvite() {
 		lastinvitecode = invitecode;
 	}
 	if(invitecode.match(/<|"/ig)) {
-		errormessage('invitecode', '邀請碼包含敏感字符');
+		errormessage('invitecode', 'Invitation code contains sensitive characters');
 		return;
 	}
 	var x = new Ajax();

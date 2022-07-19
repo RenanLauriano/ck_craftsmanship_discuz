@@ -43,3 +43,6 @@ discuz/uc_client/data/cache/settings.php
 discuz/uc_server/data/config.inc.php
 discuz/uc_server/data/install.lock
 discuz/uc_server/data/upgrade.lock
+discuz/data/template/1_1_common_header_member_register.tpl.php
+discuz/data/template/1_1_forum_ajax_forumlist.tpl.php
+discuz/data/template/1_1_member_register.tpl.php
