@@ -343,7 +343,7 @@ $serialize_sql_setting = array (
     array (
       'available' => 1,
       'displayorder' => 0,
-      'title' => '基本資料',
+      'title' => 'Personal Info',
       'field' =>
       array (
         'realname' => 'realname',
@@ -367,7 +367,7 @@ $serialize_sql_setting = array (
     ),
     'contact' =>
     array (
-      'title' => '聯繫方式',
+      'title' => 'Contacts',
       'available' => '1',
       'displayorder' => '1',
       'field' =>
@@ -385,24 +385,24 @@ $serialize_sql_setting = array (
     array (
       'available' => 1,
       'displayorder' => 2,
-      'title' => '教育情況',
+      'title' => 'Education',
       'field' =>
       array (
-        'graduateschool' => 'graduateschool',
-        'education' => 'education',
+        'graduateschool' => 'Institution',
+        'education' => 'Level of education',
       ),
     ),
     'work' =>
     array (
       'available' => 1,
       'displayorder' => 3,
-      'title' => '工作情況',
+      'title' => 'Job',
       'field' =>
       array (
-        'occupation' => 'occupation',
-        'company' => 'company',
-        'position' => 'position',
-        'revenue' => 'revenue',
+        'occupation' => 'Occupation',
+        'company' => 'Company',
+        'position' => 'Position',
+        'revenue' => 'Revenue',
       ),
     ),
     'info' =>

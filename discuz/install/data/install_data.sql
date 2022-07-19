@@ -59,8 +59,8 @@ INSERT INTO pre_common_cron VALUES ('18','0','system','每日用戶表優化','c
 INSERT INTO pre_common_cron VALUES ('19','1','system','統計今日熱帖','cron_todayheats_daily.php','1269746623','1269792000','-1','-1','0','0');
 INSERT INTO pre_common_cron VALUES ('20','1','system','更新版塊最後發表(防水牆相關)','cron_security_cleanup_lastpost.php','1269746623','1269792000','-1','-1','7','0');
 
-INSERT INTO pre_common_friendlink VALUES ('1','0','官方論壇','https://www.discuz.net','提供最新 Discuz! 產品新聞、軟件下載與技術交流','static/image/common/logo_88_31.gif','2');
-INSERT INTO pre_common_friendlink VALUES ('2','4','應用商店','https://addon.dismall.com/','','','2');
+INSERT INTO pre_common_friendlink VALUES ('1','0','Official Forum','https://www.discuz.net','Provide the latest Discuz! product news, software downloads and technical exchanges','static/image/common/logo_88_31.gif','2');
+INSERT INTO pre_common_friendlink VALUES ('2','4','','','','','2');
 
 INSERT INTO pre_common_member_profile_setting VALUES('realname', 1, 0, 0, 'realname', '', 0, 0, 0, 0, 0, 0, 1, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('gender', 1, 0, 0, 'gender', '', 0, 0, 0, 0, 0, 0, 1, 'select', 0, '', '');
@@ -621,8 +621,8 @@ INSERT INTO pre_common_setting VALUES ('watermarktext', 'a:12:{s:4:\"text\";a:3:
 INSERT INTO pre_common_setting VALUES ('watermarktrans', 'a:3:{s:6:\"portal\";s:2:\"50\";s:5:\"forum\";i:50;s:5:\"album\";i:50;}');
 INSERT INTO pre_common_setting VALUES ('watermarktype', 'a:3:{s:6:\"portal\";s:3:\"png\";s:5:\"forum\";s:3:\"png\";s:5:\"album\";s:3:\"png\";}');
 INSERT INTO pre_common_setting VALUES ('welcomemsg','1');
-INSERT INTO pre_common_setting VALUES ('welcomemsgtitle','{username}，您好，感謝您的註冊，請閱讀以下內容。');
-INSERT INTO pre_common_setting VALUES ('welcomemsgtxt','尊敬的{username}，您已經註冊成為{sitename}的會員，請您在發表言論時，遵守當地法律法規。\r\n如果您有什麼疑問可以聯繫管理員，Email: {adminemail}。\r\n\r\n\r\n{bbname}\r\n{time}');
+INSERT INTO pre_common_setting VALUES ('welcomemsgtitle','Hi {username}, thanks for your registration, please read the following.');
+INSERT INTO pre_common_setting VALUES ('welcomemsgtxt','Dear {username}, you have registered as a member of {sitename}, please abide by local laws and regulations when you make comments. \r\nIf you have any questions, you can contact the administrator, Email: {adminemail}. \r\n\r\n\r\n{bbname}\r\n{time}');
 INSERT INTO pre_common_setting VALUES ('whosonlinestatus','3');
 INSERT INTO pre_common_setting VALUES ('whosonline_contract','0');
 INSERT INTO pre_common_setting VALUES ('zoomstatus','1	600');

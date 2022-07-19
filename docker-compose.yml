@@ -28,3 +28,4 @@ services:
       - "8080:80"
     volumes:
       - ./uploads.ini:/usr/local/etc/php/conf.d/php-phpmyadmin.ini
+      
